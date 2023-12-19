@@ -27,8 +27,10 @@
   border-radius: 30px;
   padding: 0px 10px;
 }
-.active a{
-  border-bottom: #ffc107 1px solid !important;
+.active {
+  border-bottom: #ffc107 2px solid !important;
+  color: black !important;
+  font-weight: 600 !important;
 }
 .ff {
     display: flex !important;
