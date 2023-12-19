@@ -25,7 +25,7 @@
 .navBor {
   border: 3px solid #ffc107;
   border-radius: 30px;
-  padding: 0px 10px;
+  padding: 0px 0.6rem;
 }
 .active {
   border-bottom: #ffc107 2px solid !important;
@@ -34,8 +34,7 @@
 }
 .ff {
     display: flex !important;
-    width: 14rem;
-    
+    width: 11.5rem;
     height: 4.45rem;
     flex-direction: column !important;
     justify-content: space-between;
