@@ -33,7 +33,7 @@ const MainNav = () => {
                 ساهم في الخير{" "}
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">عن الاورمان</Nav.Link>
+            <Nav.Link href="#link" className="active">عن الاورمان</Nav.Link>
             <Nav.Link href="#link">اخبارنا</Nav.Link>
           </Nav>
           <Nav className="me-auto ff">

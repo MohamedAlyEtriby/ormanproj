@@ -27,9 +27,13 @@
   border-radius: 30px;
   padding: 0px 10px;
 }
+.active a{
+  border-bottom: #ffc107 1px solid !important;
+}
 .ff {
     display: flex !important;
-    width: 12rem;
+    width: 14rem;
+    
     height: 4.45rem;
     flex-direction: column !important;
     justify-content: space-between;
