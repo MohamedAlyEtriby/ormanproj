@@ -1,0 +1,13 @@
+.partner-cont{
+    min-height: 39rem !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.center1{
+    justify-content: center !important;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
