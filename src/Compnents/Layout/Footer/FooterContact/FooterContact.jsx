@@ -11,8 +11,8 @@ const FooterContact = () => {
           <input type="text" name="" id="" placeholder="الاســـــــــــــــم" />
           <input type="text" name="" id="" placeholder="رقم المحمول" />
         </div>
-        <input type="text" name="" id="" placeholder="البريد الاليكتروني" />
-        <input type="text" name="" id="" placeholder="عنوان الرسالة" />
+        <input type="text" name="" id="" placeholder="البريد الاليكتروني" className="w-100" />
+        <input type="text" name="" id="" placeholder="عنوان الرسالة" className="w-100" />
         <textarea
           type="text"
           name=""

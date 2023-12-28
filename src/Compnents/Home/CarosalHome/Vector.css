@@ -1,0 +1,12 @@
+.VectorItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 5.72rem;
+}
+.VectorItem * {
+  margin: 0;
+  color: #FFC107;
+  font-size: 1.4rem;
+}
