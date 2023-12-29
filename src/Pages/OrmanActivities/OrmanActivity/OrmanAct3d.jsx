@@ -52,7 +52,7 @@ export default function Orman3dAct() {
           Navigation,
           Autoplay
         ]}
-        className="mySwiper"
+        className="mySwiper car3d"
         style={{ height: "fit-content", width: "100%" }}
       >
         <SwiperSlide>
