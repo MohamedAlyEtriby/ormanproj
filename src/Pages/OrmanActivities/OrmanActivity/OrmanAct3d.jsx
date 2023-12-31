@@ -69,7 +69,7 @@ export default function Orman3dAct() {
           <img src="../../../../assets/Activitiess.png" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../../assets/Activitiese.png" alt=""  loading="lazy"/>
+          <img src="../../../../assets/activitiese.png" alt=""  loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
           <img src="../../../../assets/Ramadan.png" alt=""loading="lazy" />
