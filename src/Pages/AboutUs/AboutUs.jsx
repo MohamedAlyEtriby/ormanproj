@@ -5,11 +5,12 @@ import Questions from '../../Compnents/Questions/Questions'
 import SuccessPart from '../../Compnents/SuccessPart/SuccessPart'
 import Elorman from '../../Compnents/Elorman/Elorman'
 import ElormanDesc from '../../Compnents/ElormanDesc/ElormanDesc'
+import HeaderPhoto from '../../Compnents/HeaderPhoto/HeaderPhoto'
 
 const AboutUs = () => {
   return (
     <div>
-       <Elorman bool={true} />
+       <HeaderPhoto imageUrl={"../../../assets/ormanback.png"}/>
         <ElormanDesc
           img1={"../../../assets/orman.png"}
           img2={"../../../assets/gmyaOrman.png"}

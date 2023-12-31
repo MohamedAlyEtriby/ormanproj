@@ -9,7 +9,7 @@ const HeaderPhoto = ({ imageUrl, title }) => {
 
   return (
     <>
-      <div className="position-relative mb-5" style={{ height: "21.2rem" }}>
+      <div className="position-relative mb-5" style={{ height: "20.2rem" }}>
         <div className="w-100" style={styles}></div>
         <div className="bggreen"></div>
       </div>

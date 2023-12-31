@@ -4,7 +4,7 @@ import "./ElormanDesc.css";
 
 const ElormanDesc = ({ img1, desc, img2 }) => {
   return (
-    <Container className="p-5">
+    <Container className="">
       <Row style={{ justifyContent: "space-between" }}>
         <Col
           xs={12}
@@ -15,6 +15,7 @@ const ElormanDesc = ({ img1, desc, img2 }) => {
             <img
               src={img1}
               alt=""
+              className="ormanimg"
             />
           </div>
           <p>
