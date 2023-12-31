@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 // import { Pie } from 'react-chartjs-2';
-import ReactApexChart from "react-apexcharts";
 import './PieChart.css'
 const PieChart1 = ({ value, size, strokewidth }) => {
     const halfsize = size * 0.5;
