@@ -6,7 +6,6 @@ import CarosalHalf from "../../Compnents/Home/CarosalHalf/CarosalHalf.jsx";
 import { Col, Container, Row } from "react-bootstrap";
 import Donate from "../../Compnents/Home/CarosalHalf/Donate.jsx";
 import CarosalHover from "../../Compnents/Home/CarosalHover/CarosalHover.jsx";
-import CaroselSuccess from "../../Compnents/Home/CarosalSucces/CarosalSuccess.jsx";
 import Carosal3d from "../../Compnents/Home/Carosal3d/Carosal3d.jsx";
 import NahrHasanat from "../../Compnents/Home/NahrHasanat/NahrHasanat.jsx";
 import CarosalHome from "../../Compnents/Home/CarosalHome/CarosalHome.jsx";

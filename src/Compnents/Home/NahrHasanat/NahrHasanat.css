@@ -6,8 +6,14 @@
     position: relative;
     background-color: #FFFFFF;
 }
+@media (max-width: 768px) {
+    .nahr{
+        width: 90% !important;
+    }
+}
 .nahrrkm{
      border: 1px solid #C2C2C2;
+     border-radius: 0.5rem !important;
 }
 .inputt{
     width:100% !important;

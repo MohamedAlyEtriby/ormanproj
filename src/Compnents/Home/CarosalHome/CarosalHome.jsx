@@ -20,6 +20,7 @@ export default function CarosalHome() {
         pagination={true}
         mousewheel={true}
         keyboard={true}
+        loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper swiper2"
         style={{ height: "52rem", width: "100%" }}

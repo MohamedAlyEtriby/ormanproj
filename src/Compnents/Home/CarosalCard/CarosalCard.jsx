@@ -23,6 +23,7 @@ export default function CarosalCard() {
         pagination={true}
         mousewheel={true}
         keyboard={true}
+        loop={true}
         breakpoints={{
           640: {
             slidesPerView: 2,
