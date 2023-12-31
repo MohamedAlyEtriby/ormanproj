@@ -1,0 +1,322 @@
+screen
+ 
+"منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا، دون أي تمييز ديني أو سياسي، وذلك بشكل مؤسسي متطور ويؤكد دور العمل الأهلي فى تنمية المجتمعات اقتصاديًا واجتماعيًا. تعتمد الجمعية في تمويلها على التبرعات العينية والنقدية من المصريين داخل مصر وخارجه
+ 
+gmyaOrman
+ 
+orman
+ 
+منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على
+            التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن
+            الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا، دون أي تمييز ديني
+            أو سياسي، وذلك بشكل مؤسسي متطور ويؤكد دور العمل الأهلي فى تنمية
+            المجتمعات اقتصاديًا واجتماعيًا. تعتمد الجمعية في تمويلها على
+            التبرعات العينية والنقدية من المصريين داخل مصر وخارجها.
+ 
+"../../../assets/gmyaOrman.png"
+ 
+"../../../assets/orman.png"
+ 
+@media (max-width: 992px) {
+  .ff {
+    display: flex !important;
+    width: 14rem;
+    height: 4.45rem;
+    margin: auto !important;
+    flex-direction: column !important;
+    justify-content: space-between;
+  }
+}
+ 
+wrap
+ 
+text-align: right !important;
+  color: white !important;
+ 
+nowrap
+ 
+ormanback.png`
+ 
+public
+ 
+height: 30px;
+ 
+style={{width:"100%"}}
+ 
+../../../public/assets/ormanback.png
+ 
+  background: url("../../../public/assets/ormanback.png");
+    background-size: contain;
+    height: 19.125rem;
+    width: 100%;
+ 
+{`${bool?"ormanback":"resalaback"}`}
+ 
+100% 100%
+ 
+contain
+ 
+height: 19.125rem;
+ 
+'ormanback resala'
+ 
+<Accordion.Item eventKey="1">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+ 
+Accordion Item #1
+ 
+flex-start 
+ 
+  min-height: 39rem !important;
+    padding: 20px;
+ 
+partner-cont
+ 
+center1
+ 
+center1
+ 
+flex1
+ 
+justify-content-center
+ 
+row
+ 
+auto
+ 
+flex1
+ 
+ <div className="flex1">
+     
+      </div>
+ 
+objectFit:"contain"
+ 
+flex1
+ 
+row
+ 
+50px
+ 
+width={"60px"}
+ 
+"../../../"
+ 
+screen
+ 
+fit-content
+ 
+  <div style={{display:"flex",border:"3px solid green"}}>
+        <div style={{border:"1px solid green",flexGrow:"1"}}>
+          djdj
+        </div>
+        <div style={{border:"1px solid green",flexGrow:"1"}}>
+          djdj
+        </div>
+      </div>
+ 
+  max-width: fit-content;
+ 
+,border:"1px solid green"
+ 
+input {
+}
+ 
+width: 30px;
+ 
+important
+ 
+ .flex-row{
+    
+  }
+ 
+ <div className="form-row">
+          <input type="text" name="" id="" placeholder="Input 3" />
+          <input type="text" name="" id="" placeholder="Input 4" />
+        </div>
+ 
+ width: "100%"
+ 
+form div{
+    flex-grow: 1;
+}
+ 
+className='flex1 input1'
+ 
+max-
+ 
+  djjjjjjjjjjjjjh
+ 
+ff0000
+ 
+className=''
+ 
+list
+ 
+style={{border:"4px solid green"}} 
+ 
+ className="flex1"
+ 
+   <div>
+          <FaPhoneAlt/>
+        </div>
+        <div>
+        <p>19455</p>
+        </div>
+ 
+ style={{height:"400px",border:"1px solid blue"}}
+ 
+ display: flex !important;
+    align-items: center;
+ 
+style={{height:"100%",border:"1px solid green"}}
+ 
+width={"100px"}
+ 
+style={{border:"2px solid green"}}
+ 
+style={{border:"2px solid blue"}}
+ 
+tyle={{border:"1px solid green"}}
+ 
+className="footer"
+ 
+ .custom-accordion .accordion-button {
+    --bs-accordion-btn-active-icon: white; /* Change the color */
+    --bs-accordion-btn-icon-transform: none; /* Change the transform if needed */
+  }
+ 
+style={{border:"1px solid green"}}
+ 
+screen and
+ 
+width:"28.70rem"
+ 
+28.70rem
+ 
+ dir='ltr'
+ 
+,width:"32.3rem"
+ 
+style={{ border: "1px solid green" }}
+ 
+py-5
+ 
+style={{border:"1px solid green"}}
+ 
+fluid="lg"
+ 
+,height:"22rem"
+ 
+flow-root
+ 
+variant=""
+ 
+top
+ 
+holder.js/100px180
+ 
+100%"
+ 
+border:"1px solid blue
+ 
+1 of 3
+ 
+    <Row>
+      <Col>1 of 3</Col>
+      <Col xs={5}>2 of 3 (wider)</Col>
+      <Col>3 of 3</Col>
+    </Row>
+ 
+cover
+ 
+dkdk
+ 
+bg-body-tert
+ 
+  style={{
+              display: "flex",
+              Width: "185px",
+              Height: "65px",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}
+ 
+height: "100%"
+ 
+border: "1px solid blue"
+ 
+بينين
+ 
+ <div>gg</div> <div>gg</div> <div>gg</div>
+ 
+  <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#link">Link</Nav.Link>
+          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Another action
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3.4">
+              Separated link
+            </NavDropdown.Item>
+          </NavDropdown>
+ 
+ن الاورمان
+ 
+Link
+ 
+Dropdown
+ 
+  Another action
+ 
+Home
+ 
+width={"10rem"}
+ 
+React-Bootstrap
+ 
+836px
+ 
+max-
+ 
+ .flex{
+    justify-content: center !important;
+  }
+ 
+ html {
+    font-size: 10px;
+  }
+ 
+@media  {
+  
+}
+ 
+space-between
+ 
+5.5rem
+ 
+سجيل الدخول |
+ 
+ width={""}
+ 
+dddj
+ 
+&npsb;
+ 
+|
+ 
+رق اخري للتبرع
+ 

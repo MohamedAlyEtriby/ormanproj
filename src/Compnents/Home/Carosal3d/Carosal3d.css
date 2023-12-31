@@ -1,0 +1,18 @@
+.divimage{
+    width: 15rem !important;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.divimage img{
+  border: 2px solid black;
+  border-radius: 50%;
+}
+@media (max-width: 700px) {
+    .divimage{
+        width: 12rem !important;
+      height: 100%;
+    }
+    .slidercon{
+        width: 100% !important;
+    }
+}
