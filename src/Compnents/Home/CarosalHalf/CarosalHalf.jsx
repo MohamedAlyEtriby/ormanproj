@@ -21,6 +21,7 @@ export default function CarosalHalf() {
         pagination={true}
         mousewheel={true}
         keyboard={true}
+        loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         style={{ height: "100%", width: "100%", margin: "auto" }}
         className="CarosalHalf"
