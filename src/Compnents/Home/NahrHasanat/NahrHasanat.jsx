@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./NahrHasanat.css";
 const NahrHasanat = () => {
   return (
-    <div style={{ maxWidth: "44rem", margin: "auto", textAlign: "right",zIndex:"9827" }} className="nahr py-2">
+    <div style={{ maxWidth: "44rem", margin: "auto", textAlign: "right",zIndex:"98" }} className="nahr py-2">
       <Container fluid="md">
         <Row>
           <Col md={6} sm={6} xs={12}>
