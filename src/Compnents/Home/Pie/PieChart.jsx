@@ -23,7 +23,6 @@ const PieChart1 = ({ value, size, strokewidth }) => {
       </svg>
     );
 };
-
 export default PieChart1;
 
 
