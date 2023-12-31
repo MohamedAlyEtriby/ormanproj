@@ -11,7 +11,7 @@
   white-space: inherit !important;
 
 }
-.dropdown-item:hover{
+.dropdown-item:hover a{
   color: black !important;
 }
 .dropdown-item a{
@@ -21,6 +21,10 @@
 .dropdown-menu{
   width: 15.8rem;
   background-color: #8E8E8E !important;
+  color: white !important;
+}
+.dropdown-menu *{
+  color: white !important;
 }
 .navBor {
   border: 3px solid #ffc107;

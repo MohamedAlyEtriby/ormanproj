@@ -3,6 +3,17 @@ import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import "./MainNav.css";
 import { Link } from "react-router-dom";
 const MainNav = () => {
+  const activities = [
+    { id: 1, title: "القضاء على الجوع والفقر", path: "/activities/1" },
+    {
+      id: 2,
+      title: "لمدن والمجتمعات المستدامة وتوفير المياه النظيفة",
+      path: "/activities/2",
+    },
+    { id: 3, title: "الصحة الجيدة والرفاه", path: "/activities/3" },
+    { id: 4, title: "العمل اللائق والنمو الاقتصادي", path: "/activities/4" },
+    { id: 5, title: "ساهم في الخير", path: "/activities/5" },
+  ];
   return (
     <Navbar expand="lg" className="">
       <Container>
@@ -19,31 +30,19 @@ const MainNav = () => {
             <Nav.Link className="" href="">
               <Link to="/">الصفحة الرئيسية</Link>
             </Nav.Link>
-            <NavDropdown
-              title="انشطة الاورمان"
-              id="basic-nav-dropdown"
-              style={{ zIndex: "933837373733" }}
-            >
-              <NavDropdown.Item href="#action/3.1">
-                القضاء على الجوع والفقر
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                لمدن والمجتمعات المستدامة وتوفير المياه النظيفة والصرف الص{" "}
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                الصحة الجيدة والرفاه
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                العمل اللائق والنمو الاقتصادي{" "}
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">
-                ساهم في الخير{" "}
-              </NavDropdown.Item>
+            <NavDropdown title="انشطة الاورمان" id="basic-nav-dropdown" style={{zIndex:"848383"}}>
+              {activities.map((activity) => {
+                return (
+                  <NavDropdown.Item key={activity.id}>
+                    <Link to={activity.path} style={{color:"black"}}>{activity.title}</Link>
+                  </NavDropdown.Item>
+                );
+              })}
             </NavDropdown>
-            <Nav.Link className="" >
+            <Nav.Link className="">
               <Link to="/About">عن الاورمان</Link>
             </Nav.Link>
-            <Nav.Link >
+            <Nav.Link>
               <Link to="/About">اخبارنا</Link>
             </Nav.Link>
           </Nav>
