@@ -9,17 +9,18 @@ import CarosalHover from "../../Compnents/Home/CarosalHover/CarosalHover.jsx";
 import Carosal3d from "../../Compnents/Home/Carosal3d/Carosal3d.jsx";
 import NahrHasanat from "../../Compnents/Home/NahrHasanat/NahrHasanat.jsx";
 import CarosalHome from "../../Compnents/Home/CarosalHome/CarosalHome.jsx";
+import Vectors from "../../Compnents/Home/CarosalHome/Vectors.jsx";
 var items = [1, 2, 3, 4, 5, 7, 9, 10, 11,12];
 const Home = () => {
   const [goToSlide, setGoToSlide] = React.useState(0);
   return (
     <div>
-      {/* <div className="dataIn2">
+      <div className="dataIn2">
         <Vectors img="../../../assets/ui/Vector.png" title="إتبرع الأن" />
         <Vectors img="../../../assets/ui/Vector2.png" title="حقق الحلم" />
         <Vectors img="../../../assets/ui/Vector3.png" title="احسب زكاتك" />
         <Vectors img="../../../assets/ui/Vector4.png" title="WhatsApp" />
-      </div> */}
+      </div>
       <CarosalHome />
       <NahrHasanat/>
       <div className="sectionspace">
