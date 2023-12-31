@@ -19,7 +19,6 @@ const PieChart1 = ({ value, size, strokewidth }) => {
         <text className="donutchart-text" x={halfsize} y={halfsize} style={{ textAnchor: 'middle' }}>
           <tspan className="donutchart-text-val">{value}</tspan>
           <tspan className="donutchart-text-percent">%</tspan>
-         
         </text>
       </svg>
     );
@@ -29,35 +28,3 @@ export default PieChart1;
 
 
 
-// const [chartState, setChartState] = useState({
-//     series: [num1 ? num1 : 0, num2 ? num2 : 0],
-//     options: {
-//       chart: {
-//         type: "donut",
-//       },
-//       responsive: [
-//         {
-//           breakpoint: 480,
-//           options: {
-//             chart: {
-//               width: 100,
-//             },
-//             legend: {
-//               position: "bottom",
-//             },
-//           },
-//         },
-//       ],
-//     },
-//   });
-
-//   return (
-//     <div id="chart">
-//       <ReactApexChart
-//         options={chartState.options}
-//         series={chartState.series}
-//         type="donut"
-//         width={400}
-//       />
-//     </div>
-//   );
