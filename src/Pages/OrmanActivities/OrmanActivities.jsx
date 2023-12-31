@@ -5,7 +5,7 @@ import OrmanActivitiesCom from "../../Compnents/Activities/OrmanActivitiesCom";
 const OrmanActivities = () => {
   return (
     <div>
-      <HeaderPhoto imageUrl="../../../assets/activeback.png" title={"أنشطة اللأورمان/القضاء على الجوع والفقر"}/>
+      <HeaderPhoto imageUrl="../../../assets/activeback.png" />
       <OrmanActivitiesCom title={"أنشطة اللأورمان/القضاء على الجوع والفقر"} />
     </div>
   );

@@ -13,6 +13,7 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Home from "./Pages/Home/Home";
 import OrmanActivities from "./Pages/OrmanActivities/OrmanActivities";
 import OrmanActivity from "./Pages/OrmanActivities/OrmanActivity/OrmanActivity";
+import Banks from "./Pages/Banks/Banks";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/About" element={<AboutUs/>} />
           <Route exact path="/Activities" element={<OrmanActivities/>} />
           <Route exact path="/Activities/:id" element={<OrmanActivity/>} />
+          <Route exact path="/Banks" element={<Banks/>} />
         </Routes>
       </Layout>
     </div>
