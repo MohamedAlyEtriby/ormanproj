@@ -20,7 +20,6 @@ import {
 import "./OrmanAct3d.css";
 
 export default function Orman3dAct() {
-    
   return (
     <>
       <Swiper
@@ -37,44 +36,52 @@ export default function Orman3dAct() {
         }}
         coverflowEffect={{
           rotate: 0,
-          stretch: 3,
+          stretch: 0,
           depth: 200,
           modifier: 1,
           slideShadows: true,
         }}
         loop={true}
-        
         modules={[
           EffectCoverflow,
           Pagination,
           Mousewheel,
           Keyboard,
           Navigation,
-          Autoplay
+          Autoplay,
         ]}
         className="mySwiper car3d"
         style={{ height: "20rem", width: "100%" }}
       >
         <SwiperSlide>
-          <img src="../../../../assets/Rectangle.png" alt="" />
+          <img src="../../../../assets/Activitiess.png" alt=""  loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../../assets/Rectangle.png" alt="" />
+          <img src="../../../../assets/Ramadan.png" alt=""loading="lazy" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../../assets/Rectangle.png" alt="" />
+          <img src="../../../../assets/activitiesm.png" alt="" loading="lazy"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../../assets/Rectangle.png" alt="" />
+          <img src="../../../../assets/activitiese.png" alt="" loading="lazy"/>
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src="../../../../assets/Rectangle.png" alt="" />
+          <img src="../../../../assets/Activitiess.png" alt="" loading="lazy"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../../../../assets/Activitiese.png" alt=""  loading="lazy"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../../../../assets/Ramadan.png" alt=""loading="lazy" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../../../../assets/activitiesm.png" alt="" loading="lazy"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../../../../assets/activitiese.png" alt="" loading="lazy"/>
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src="../../../../assets/Rectangle.png" alt="" />
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <img src="../../../../assets/Rectangle.png" alt="" />
+          <img src="../../../../assets/Activitiess.png" alt="" loading="lazy"/>
         </SwiperSlide>
       </Swiper>
     </>
