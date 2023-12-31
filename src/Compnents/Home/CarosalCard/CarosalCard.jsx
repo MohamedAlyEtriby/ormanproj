@@ -35,7 +35,7 @@ export default function CarosalCard() {
         }}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         style={{ height: "fit-content", width: "80%", margin: "auto" }}
-        className=" swipe"
+        className=" swipe swipeima"
         spaceBetween={30}
       >
         <SwiperSlide>

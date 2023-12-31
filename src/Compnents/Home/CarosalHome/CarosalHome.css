@@ -1,11 +1,10 @@
 .imageSlide {
-  width: 100%;
-  object-fit: cover;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
 }
 @media (max-width: 708px) {
-  .imageSlide{
-    height:20rem !important
-  }
+ 
 }
 .mySwiper .swiper-pagination-bullet-active {
   background-color: yellow !important;
@@ -80,7 +79,10 @@
     height: 14rem;
   }
   .dataIn1{
-    top: 5%;
+    top: 10%;
+  }
+  .mySwiper{
+    height:30rem !important
   }
 }
 .dataIn3 {
@@ -95,4 +97,7 @@
 }
 .dataIn3 *{
     font-size: 1.9rem !important;
+}
+@media (max-width: 1000px){
+
 }

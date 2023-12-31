@@ -23,7 +23,7 @@
   transform: translateX(-50%);
   z-index: 10999999996666666666666;
 }
-.swiper-slide img {
+.swipeima .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;

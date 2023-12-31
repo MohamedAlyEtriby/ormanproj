@@ -22,7 +22,7 @@ export default function CarosalHome() {
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper swiper2"
-        style={{ height: "fit-content", width: "100%" }}
+        style={{ height: "52rem", width: "100%" }}
       >
         <div className="bgop">
           <div className="dataOut">
