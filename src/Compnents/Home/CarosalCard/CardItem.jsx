@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 const CardItem = ({img,title,desc}) => {
   return (
-    <Card className=""style={{height:"29.3rem",borderRadius:"30px"}}>
+    <Card className=""style={{minHeight:"29.3rem",borderRadius:"30px"}}>
       <Card.Img
         src={img}
         style={{ textAlign: "center" }}

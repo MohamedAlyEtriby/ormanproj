@@ -21,9 +21,9 @@
 .mySwiper.swiper-pagination-bullet {
   margin: 1.5px !important;
 }
-.swiper-button-prev,
-.swiper-button-next {
-  z-index: 97777777777777777777777777 !important;
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+ z-index: 9777777777 !important;
   color: #ffc107 !important;
 }
 .bgop {
