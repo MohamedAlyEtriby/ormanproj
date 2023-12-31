@@ -6,14 +6,16 @@
 @media (max-width: 708px) {
  
 }
-.mySwiper .swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active {
   background-color: yellow !important;
   width: 30px !important;
   transition: width 300ms ease;
   border-radius: 20px !important;
 }
+.swiper-pagination{
+  z-index: 393838884949448484848 !important;
+}
 .mySwiper .swiper-pagination {
-  z-index: 9786767557 !important;
   bottom: 3.5rem !important;
 }
 .mySwiper.swiper-pagination-bullet {

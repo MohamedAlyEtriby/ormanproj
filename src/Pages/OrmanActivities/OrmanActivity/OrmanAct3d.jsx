@@ -53,7 +53,7 @@ export default function Orman3dAct() {
           Autoplay
         ]}
         className="mySwiper car3d"
-        style={{ height: "fit-content", width: "100%" }}
+        style={{ height: "20rem", width: "100%" }}
       >
         <SwiperSlide>
           <img src="../../../../assets/Rectangle.png" alt="" />

@@ -1,7 +1,9 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import "./OrmanActCard.css";
-const OrmanActCard = ({ title, image, col, height }) => {
+import { useNavigate } from "react-router-dom";
+const OrmanActCard = ({ title, image, col, height,id }) => {
+  const navigate = useNavigate();
   return (
     <Col
       xs={12}
@@ -17,6 +19,9 @@ const OrmanActCard = ({ title, image, col, height }) => {
           boxSizing: "border-box",
         }}
         className="flex-colo justify-content-between p-3 octcard"
+        onClick={()=>{
+          navigate(`/Activities/${id}`)
+        }}
       >
         <Card.Title
           style={{ textAlign: "right", color: "#343A40" }}

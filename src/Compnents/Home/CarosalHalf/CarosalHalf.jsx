@@ -36,7 +36,7 @@ export default function CarosalHalf() {
                       borderBottom: "2px solid #FFC107",
                       fontWeight: "700"
                     }}
-                    className="p-1"
+                    className="p-1 slidesw"
                   >
                     {item.title}
                   </p>

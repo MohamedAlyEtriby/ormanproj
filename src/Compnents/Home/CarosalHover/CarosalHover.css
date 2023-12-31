@@ -17,6 +17,11 @@
   cursor: pointer;
   transition: all 0.4s ease;
 }
+.slideflow img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .slideHover {
   position: absolute;
   right: 0;

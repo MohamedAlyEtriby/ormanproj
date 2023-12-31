@@ -2,12 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Layout from "./Compnents/Layout/Layout";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Elorman from "./Compnents/Elorman/Elorman";
-import ElormanDesc from "./Compnents/ElormanDesc/ElormanDesc";
-import PersonCard from "./Compnents/Personcard/PersonCard";
-import { Col, Container, Row } from "react-bootstrap";
-import Questions from "./Compnents/Questions/Questions";
-import SuccessPart from "./Compnents/SuccessPart/SuccessPart";
+import './Family.css'
 import { Route, Routes } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Home from "./Pages/Home/Home";
@@ -16,7 +11,7 @@ import OrmanActivity from "./Pages/OrmanActivities/OrmanActivity/OrmanActivity";
 import Banks from "./Pages/Banks/Banks";
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{fontFamily:""}}>
       <Layout>
         <Routes>
           <Route exact path="/" element={<Home/>} />

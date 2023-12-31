@@ -20,3 +20,9 @@
     color: white;
     justify-content: space-around;
 }
+.Halfimg{
+    display: block !important;
+    width: 100% !important  ;
+    height: 100% !important;
+    object-fit: cover;
+}

@@ -35,17 +35,17 @@ export default function CarosalCard() {
         }}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         style={{ height: "fit-content", width: "80%", margin: "auto" }}
-        className=" swipe swipeima"
+        className=" swipe "
         spaceBetween={30}
       >
-        <SwiperSlide>
+        <SwiperSlide className="swipeima">
           <CardItem
             img="../../../assets/health.png"
             title="الصحة الجيدة والرفاه"
             desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
           />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide >
+        <SwiperSlide className="swipeima">
           <CardItem
             img="../../../assets/modon.png"
             title={
@@ -53,8 +53,8 @@ export default function CarosalCard() {
             }
             desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
           />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide >
+        <SwiperSlide className="swipeima">
           <CardItem
             img="../../../assets/health.png"
             title="القضاء على الجوع والفقر"
@@ -62,14 +62,14 @@ export default function CarosalCard() {
 
           />
         </SwiperSlide>{" "}
-        <SwiperSlide>
+        <SwiperSlide className="swipeima">
           <CardItem img="../../../assets/health.png" 
             desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
             title="القضاء على الجوع والفقر"
            
            />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="swipeima">
           <CardItem img="../../../assets/health.png" 
             desc="منظمة مصرية أهلية، غير حكومية، لا تهدف إلى الربح ولا تخضع لضرائب على التبرعات، أنشئت عام 1993 مقيدة برقم 803 مركزية بوزارة التضامن الاجتماعي، تهدف إلى خدمة الفئات الأكثر احتياجًا....اقرأ المزيد"
             title="القضاء على الجوع والفقر"
