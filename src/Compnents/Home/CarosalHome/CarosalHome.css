@@ -69,7 +69,7 @@
   right: 0;
   width: 8.125rem;
   background-color: rgba(20, 20, 20, 0.95);
-  z-index: 999999494949449498484 !important;
+  z-index: 99999 !important;
 }
 @media (max-width: 767px) {
   .dataIn2 {
