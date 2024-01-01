@@ -54,6 +54,7 @@ const MainNav = () => {
               title="انشطة الاورمان"
               id="basic-nav-dropdown"
               style={{ zIndex: "848383" }}
+              className="flex-colo align-items-center"
             >
               {activities.map((activity) => {
                 return (

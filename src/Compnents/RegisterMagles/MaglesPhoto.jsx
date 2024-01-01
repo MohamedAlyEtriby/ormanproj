@@ -7,9 +7,6 @@ const MaglesPhoto = () => {
   const handleFileChange = (e) => {
     // Handle file changes here
     const selectedFile = e.target.files[0];
-    console.log("Selected File:", selectedFile);
-
-    // Set the selected image as the background-image
     if (selectedFile) {
       const imageUrl = URL.createObjectURL(selectedFile);
       setSelectedImage(imageUrl);

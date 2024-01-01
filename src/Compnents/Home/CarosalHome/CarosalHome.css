@@ -4,7 +4,6 @@
   object-fit: cover !important;
 }
 @media (max-width: 708px) {
- 
 }
 .swiper-pagination-bullet-active {
   background-color: yellow !important;
@@ -12,7 +11,7 @@
   transition: width 300ms ease;
   border-radius: 20px !important;
 }
-.swiper-pagination{
+.swiper-pagination {
   z-index: 393838884949448484848 !important;
 }
 .mySwiper .swiper-pagination {
@@ -22,8 +21,9 @@
   margin: 1.5px !important;
 }
 
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
- z-index: 9777777777 !important;
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  z-index: 9777777777 !important;
   color: #ffc107 !important;
 }
 .bgop {
@@ -69,7 +69,12 @@
   right: 0;
   width: 8.125rem;
   background-color: rgba(20, 20, 20, 0.95);
-  z-index: 49494949449498484 !important
+  z-index: 999999494949449498484 !important;
+}
+@media (max-width: 767px) {
+  .dataIn2 {
+    width: 7rem !important;
+  }
 }
 .i5er {
   width: 27.3rem;
@@ -80,11 +85,11 @@
     width: 13.3rem;
     height: 14rem;
   }
-  .dataIn1{
+  .dataIn1 {
     top: 10%;
   }
-  .mySwiper{
-    height:30rem !important
+  .mySwiper {
+    height: 30rem !important;
   }
 }
 .dataIn3 {
@@ -97,9 +102,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.dataIn3 *{
-    font-size: 1.9rem !important;
+.dataIn3 * {
+  font-size: 1.9rem !important;
 }
-@media (max-width: 1000px){
-
+@media (max-width: 1000px) {
 }
