@@ -36,7 +36,7 @@ const Login = () => {
               <FaLock size={25} className="mx-2" /> كلمــــــــة المرور :
             </Form.Label>
             <Col sm="9" xs={12}>
-              <Form.Control type="text" className="mb-1" />
+              <Form.Control type="password" className="mb-1" />
               <div className="flex w-50 checkbx">
                 <Form.Check
                   type="checkbox"

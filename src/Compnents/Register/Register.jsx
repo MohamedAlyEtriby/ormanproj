@@ -48,7 +48,7 @@ const Register = () => {
               <FaLock size={25} className="mx-2" /> كلمــــــــة المرور :
             </Form.Label>
             <Col sm="9" xs={6}>
-              <Form.Control type="text" />
+              <Form.Control type="password" />
             </Col>
           </Form.Group>
           <Form.Group as={Row} className="mb-3" controlId="formLinkedIn">
@@ -56,7 +56,7 @@ const Register = () => {
               <FaLock size={25} className="mx-2" /> تأكيد كلمــــــــة المرور :
             </Form.Label>
             <Col sm="9" xs={6}>
-              <Form.Control type="text" />
+              <Form.Control type="password" />
             </Col>
           </Form.Group>
         </Form>
