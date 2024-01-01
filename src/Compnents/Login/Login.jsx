@@ -5,7 +5,7 @@ import { CiUser } from "react-icons/ci";
 import { MdOutlineMail } from "react-icons/md";
 import { FaLock } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import "./Login.css";
 const Login = () => {
   const [isChecked, setChecked] = useState(false);
 
@@ -37,7 +37,7 @@ const Login = () => {
             </Form.Label>
             <Col sm="9" xs={12}>
               <Form.Control type="text" className="mb-1" />
-              <div className="flex w-50">
+              <div className="flex w-50 checkbx">
                 <Form.Check
                   type="checkbox"
                   id="custom-checkbox"
@@ -45,8 +45,11 @@ const Login = () => {
                   checked={isChecked}
                   onChange={handleCheckboxChange}
                   style={{ width: "fit-content" }}
+                  className="inputa"
                 />
-                <Link>هل نسيت كلمة السر؟</Link>
+                <div>
+                  <Link>هل نسيت كلمة السر؟</Link>
+                </div>
               </div>
             </Col>
           </Form.Group>
