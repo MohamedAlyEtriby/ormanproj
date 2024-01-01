@@ -34,7 +34,7 @@ const MainNav = () => {
               {activities.map((activity) => {
                 return (
                   <NavDropdown.Item key={activity.id}>
-                    <Link to={activity.path} style={{color:"black"}}>{activity.title}</Link>
+                    <Link to={activity.path} >{activity.title}</Link>
                   </NavDropdown.Item>
                 );
               })}

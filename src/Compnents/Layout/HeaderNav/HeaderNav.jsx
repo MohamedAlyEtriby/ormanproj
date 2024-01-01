@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeaderNav.css";
 import { FaUser } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 const HeaderNav = () => {
   return (
     <div className="header flex col" dir="rtl">
@@ -11,7 +12,7 @@ const HeaderNav = () => {
       </div>
       <div className="flex">
         <div>En |</div>
-        <div> &nbsp; تسجيل الدخول  &nbsp;</div>
+        <Link to="/Login"> &nbsp; تسجيل الدخول  &nbsp;</Link>
         <div style={{ marginTop: "rem" }}>
           <FaUser />
         </div>
