@@ -35,7 +35,7 @@ const MainNav = () => {
     { id: 5, title: "ساهم في الخير", path: "/activities/5" },
   ];
   return (
-    <Navbar expand="lg" className={`${backnav ? "back" : "" } noback`}>
+    <Navbar expand="lg" className={`${backnav ? "back" : "" } noback mobnav`}>
       <Container>
         <Navbar.Brand href="#home" style={{ margin: "0" }}>
           <img

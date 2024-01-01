@@ -84,3 +84,9 @@ a {
 .dropit a {
   color: white !important;
 }
+
+@media (max-width: 980px) {
+  .mobnav{
+    background-color: white !important;
+  }
+}
