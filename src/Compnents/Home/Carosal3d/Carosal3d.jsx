@@ -39,13 +39,12 @@ const FeaturesCarousel = ({ goToSlide, setGoToSlide }) => {
     return {
       key: index,
       content: (
-        <div key={index} className="divimage">
           <img
             src={imagePath}
             alt={`mage ${index + 1}`}
-            style={{ width: "100%", height: "100%",objectFit:"cover" }}
+            style={{  height: "100%",objectFit:"cover" }}
+            className="sora3d"
           />
-        </div>
       ),
       onClick: () => setGoToSlide(index),
     };
@@ -73,7 +72,7 @@ const FeaturesCarousel = ({ goToSlide, setGoToSlide }) => {
             onClick={() => setGoToSlide(goToSlide + 1)}
           />
 
-          <div className="home-gallery-img" style={{ height:"100%",width:"100%" }}>
+          <div className="" style={{ height:"100%",width:"100%" }}>
             <Carousel
               slides={sliders}
               goToSlide={goToSlide}

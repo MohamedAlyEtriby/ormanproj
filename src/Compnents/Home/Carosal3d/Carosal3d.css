@@ -1,17 +1,14 @@
-.divimage{
-    width: 13rem !important;
+
+.sora3d {
   border-radius: 50%;
-}
-.divimage img{
-  border: 1px solid black;
-  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: 0px 4px 8px  rgba(0, 0, 0, 25%);
 }
 @media (max-width: 700px) {
-    .divimage{
-        width: 12rem !important;
-      height: 100%;
-    }
-    .slidercon{
-        width: 100% !important;
-    }
+  .divimage {
+    height: 100%;
+  }
+  .slidercon {
+    width: 100% !important;
+  }
 }
