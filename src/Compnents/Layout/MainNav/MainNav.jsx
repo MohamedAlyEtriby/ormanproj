@@ -30,11 +30,16 @@ const MainNav = () => {
             <Nav.Link className="" href="">
               <Link to="/">الصفحة الرئيسية</Link>
             </Nav.Link>
-            <NavDropdown title="انشطة الاورمان" id="basic-nav-dropdown" style={{zIndex:"848383"}}>
+            <NavDropdown
+              title="انشطة الاورمان"
+              id="basic-nav-dropdown"
+              className="flex-colo justify-content-between"
+              style={{ zIndex: "848383" }}
+            >
               {activities.map((activity) => {
                 return (
                   <NavDropdown.Item key={activity.id}>
-                    <Link to={activity.path} >{activity.title}</Link>
+                    <Link to={activity.path}>{activity.title}</Link>
                   </NavDropdown.Item>
                 );
               })}

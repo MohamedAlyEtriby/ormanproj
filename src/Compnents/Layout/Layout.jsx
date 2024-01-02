@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
         <Vectors img="../../../assets/ui/Vector3.png" title="احسب زكاتك" />
         <Vectors img="../../../assets/ui/Vector4.png" title="WhatsApp" />
       </div>
+      
       <div>
         <HeaderNav />
         <MainNav />
