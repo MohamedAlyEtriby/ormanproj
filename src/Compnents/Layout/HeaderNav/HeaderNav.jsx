@@ -8,11 +8,13 @@ const HeaderNav = () => {
       <div className="flex">
         <div> طرق اخري للتبرع | &nbsp; </div>
         <div> حساباتنا في البنوك | &nbsp;</div>
-        <div>فروعنا</div>
+        <div>
+          <Link to="/Branches">فروعنا</Link>
+        </div>
       </div>
       <div className="flex">
         <div>En |</div>
-        <Link to="/Login"> &nbsp; تسجيل الدخول  &nbsp;</Link>
+        <Link to="/Login"> &nbsp; تسجيل الدخول &nbsp;</Link>
         <div style={{ marginTop: "rem" }}>
           <FaUser />
         </div>

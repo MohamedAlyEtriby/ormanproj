@@ -48,7 +48,7 @@ const MainNav = () => {
               <Link to="/About">عن الاورمان</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/About">اخبارنا</Link>
+              <Link >اخبارنا</Link>
             </Nav.Link>
           </Nav>
           <Nav className="me-auto ff">
