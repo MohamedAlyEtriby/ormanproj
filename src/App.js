@@ -13,6 +13,7 @@ import RegisterMagles from "./Compnents/RegisterMagles/RegisterMagles";
 import Register from "./Compnents/Register/Register";
 import Login from "./Compnents/Login/Login";
 import { useEffect } from "react";
+import Branches from "./Pages/Branches/Branches";
 function App() {
   const history = useLocation();
 
@@ -38,6 +39,7 @@ function App() {
           />
           <Route exact path="/Register" element={<Register />} />
           <Route exact path="/Login" element={<Login />} />
+          <Route exact path="/Branches" element={<Branches />} />
         </Routes>
       </Layout>
     </div>

@@ -10,4 +10,7 @@ tr{
     --bs-table-bg-type: white !important;
 
   }
- 
+  .ulbanks  *{
+    font-weight: 400 !important;
+    color: #343A40 !important;
+  }

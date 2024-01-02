@@ -10,6 +10,21 @@ body {
   }
  
 }
+.nav-tabs .nav-link button{
+  background-color: none !important ;
+  
+}
+.nav-fill .nav-item .active {
+  border-bottom: 1px solid black !important;
+  background-color: none !important ;
+  
+}
+.nav-tabs{
+border: none !important;
+}
+.nav-fill .nav-item button {
+  color: #343A40 !important;
+}
 @media screen and (max-width: 515px) {
  
   .flex{
