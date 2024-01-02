@@ -15,12 +15,7 @@ const Home = () => {
   const [goToSlide, setGoToSlide] = React.useState(0);
   return (
     <div>
-      <div className="dataIn2">
-        <Vectors img="../../../assets/ui/Vector.png" title="إتبرع الأن" />
-        <Vectors img="../../../assets/ui/Vector2.png" title="حقق الحلم" />
-        <Vectors img="../../../assets/ui/Vector3.png" title="احسب زكاتك" />
-        <Vectors img="../../../assets/ui/Vector4.png" title="WhatsApp" />
-      </div>
+    
       <CarosalHome />
       <NahrHasanat/>
       <div className="sectionspace">
