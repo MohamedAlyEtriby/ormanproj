@@ -7,7 +7,7 @@ const HeaderNav = () => {
     <div className="header flex col" dir="rtl">
       <div className="flex">
         <div> طرق اخري للتبرع | &nbsp; </div>
-        <div> حساباتنا في البنوك | &nbsp;</div>
+        <div> <Link to={"/Banks"}>حساباتنا في البنوك</Link> | &nbsp;</div>
         <div>
           <Link to="/Branches">فروعنا</Link>
         </div>

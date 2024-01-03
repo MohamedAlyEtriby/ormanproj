@@ -1,10 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import BankTable from "./ElectronicBank";
-import './Tabs.css'
+import "./Tabs.css";
 import Mandob from "./Mandob";
+import WalletBank from "./WalletBank";
 const TabsCom = () => {
+  const [compIndex, setComIndex] = useState(0);
+  const CustomTab = ({ title, onClick }) => {
+    return (
+      <span
+        style={{ cursor: "pointer" }} // Add pointer cursor to indicate it's clickable
+        onClick={onClick}
+      >
+        {title}
+      </span>
+    );
+  };
+  const Tabcus = ({ img, title,onClick }) => {
+    return (
+      <div>
+        <div
+        onClick={onClick}
+        >
+          <img
+            src={`../../../assets/${img}`}
+            alt=""
+            style={{ width: "2rem",height: "2rem" }}
+          />
+        </div>{" "}
+        <span>{title}</span>
+      </div>
+    );
+  };
   return (
     <Tabs
       defaultActiveKey="profile"
@@ -13,17 +41,30 @@ const TabsCom = () => {
       fill
       style={{ width: "42rem" }}
     >
-      <Tab eventKey="home" title="بطاقة الائتمان">
-        بطاقة الائتمان{" "}
+      <Tab
+        eventKey="home"
+        title={<Tabcus title="بطاقة الائتمان" img={"e2tman.png"} />}
+      >
+        <img
+          src="../../../assets/e2tman.png"
+          alt=""
+        />
       </Tab>
-      <Tab eventKey="profile" title="محافظة إلكترونية" style={{border:"0"}} className="bankk">
-        <BankTable/>
+      <Tab
+        eventKey="profile"
+        title={
+          <Tabcus title="محافظة إلكترونية" onClick={() => setComIndex(0)} img={"mohafzt.png"} />
+        }
+        style={{ border: "0" }}
+        className="bankk"
+      >
+        <WalletBank setComIndex={setComIndex} compIndex={compIndex} />
       </Tab>
-      <Tab eventKey="longer-tab" title="حساباتنا في البنوك">
-        حساباتنا في البنوك
+      <Tab eventKey="longer-tab" title={<Tabcus title="حساباتنا في البنوك" img={"hsabat.png"} />}>
+        <BankTable />
       </Tab>
-      <Tab eventKey="" title="إرسال مندوب">
-        <Mandob/>
+      <Tab eventKey="" title={<Tabcus title="إرسال مندوب" img={"delivery.png"} />}>
+        <Mandob />
       </Tab>
     </Tabs>
   );
