@@ -4,15 +4,15 @@ import "./MainNav.css";
 import { Link } from "react-router-dom";
 const MainNav = () => {
   const activities = [
-    { id: 1, title: "القضاء على الجوع والفقر", path: "/activities/1" },
+    { id: 1, title: "القضاء على الجوع والفقر", path: "/activities" },
     {
       id: 2,
       title: "لمدن والمجتمعات المستدامة وتوفير المياه النظيفة",
-      path: "/activities/2",
+      path: "/activities",
     },
-    { id: 3, title: "الصحة الجيدة والرفاه", path: "/activities/3" },
-    { id: 4, title: "العمل اللائق والنمو الاقتصادي", path: "/activities/4" },
-    { id: 5, title: "ساهم في الخير", path: "/activities/5" },
+    { id: 3, title: "الصحة الجيدة والرفاه", path: "/activities" },
+    { id: 4, title: "العمل اللائق والنمو الاقتصادي", path: "/activities" },
+    { id: 5, title: "ساهم في الخير", path: "/activities" },
   ];
   return (
     <Navbar expand="lg" className="">
@@ -48,7 +48,7 @@ const MainNav = () => {
               <Link to="/About">عن الاورمان</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link >اخبارنا</Link>
+              <Link>اخبارنا</Link>
             </Nav.Link>
           </Nav>
           <Nav className="me-auto ff">

@@ -67,9 +67,10 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 8.125rem;
+  width: 6.125rem;
   background-color: rgba(20, 20, 20, 0.95);
   z-index: 99999 !important;
+  padding: 0.3rem;
 }
 @media (max-width: 767px) {
   .dataIn2 {

@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <Vectors img="../../../assets/Vector.png" title="إتبرع الأن" />
         <Vectors img="../../../assets/Vector2.png" title="حقق الحلم" />
         <Vectors img="../../../assets/Vector3.png" title="احسب زكاتك" />
-        <Vectors img="../../../assets/Vector4.png" title="WhatsApp" />
+        <Vectors img="../../../assets/Vector4.png" title="Whats App" />
       </div>
       
       <div>
