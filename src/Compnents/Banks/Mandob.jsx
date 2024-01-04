@@ -15,13 +15,13 @@ const Mandob = () => {
   };
   return (
     <>
-      <Container fluid="lg" className="px-3 mandob">
+      <Container fluid="lg" className="px-3 mandob boxshadowout">
         <p style={{ fontSize: "1.7rem", color: "#8E8E8E", textAlign: "right" }}>
           بيانات المتبرع
         </p>
         <Form
           style={{ border: "1px solid #D9D9D9", borderRadius: "0.7rem" }}
-          className="p-5"
+          className="p-5 boxshadow"
         >
           {/* Social Media handles */}
           <Form.Group as={Row} className="mb-3" controlId="formFacebook">
