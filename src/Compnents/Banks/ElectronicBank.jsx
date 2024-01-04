@@ -18,7 +18,7 @@ const BankTable = ({ bankData }) => {
                       <img
                         src={item.img}
                         alt={`iimage ${index + 1}`}
-                        style={{ width: "25rem", height: "6.7rem" }}
+                        style={{ width: "23rem", height: "6.7rem" }}
                         className="soraelectronic"
                       />
                     )}

@@ -23,12 +23,17 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
           {/* Social Media handles */}
           <Form.Group as={Row} className="mb-3" controlId="formLinkedIn">
             <Form.Label column sm="5" xs={12} md={3} className="label">
-              <CiMobile3 size={25} className="mx-2" /> هـــدف التبـــــــــــرع
-              :
+              <img
+                src="../../../assets/Hearttbro3.png"
+                alt=""
+                style={{width:"1.7rem"}}
+                className="mx-2"
+              />{" "}
+              جهة التبـــــــــــرع :
             </Form.Label>
             <Col sm="7" xs={12} md={9}>
               <Form.Select>
-                <option>الاشتراك</option>
+                <option>--اختار--</option>
                 <option>Option 2</option>
                 <option>Option 3</option>
               </Form.Select>
