@@ -10,7 +10,7 @@ const arr = [
   },
   {
     title: "لحوم الاضاحي",
-    image: "Adha.png",
+    image: "adha.png",
   },
   {
     title: "ذبح خروف أو عجل",

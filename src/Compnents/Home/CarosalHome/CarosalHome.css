@@ -71,6 +71,8 @@
   background-color: rgba(20, 20, 20, 0.95);
   z-index: 99999 !important;
   padding: 0.3rem;
+  border-top-right-radius: 0.6rem;
+  border-top-left-radius: 0.6rem;
 }
 @media (max-width: 767px) {
   .dataIn2 {
