@@ -19,7 +19,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
         <p style={{ fontSize: "1.7rem", color: "#8E8E8E", textAlign: "right" }}>
           بيانات المتبرع
         </p>
-        <Form className="boxshadow p-3">
+        <Form className="boxshadow p-5">
           {/* Social Media handles */}
           <Form.Group as={Row} className="mb-3" controlId="formLinkedIn">
             <Form.Label column sm="5" xs={12} md={3} className="label">

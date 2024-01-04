@@ -20,7 +20,7 @@ const Mandob = () => {
           بيانات المتبرع
         </p>
         <Form
-          style={{ border: "1px solid #D9D9D9", borderRadius: "0.7rem" }}
+          style={{ border: "1px solid #D9D9D9" }}
           className="p-5 boxshadow"
         >
           {/* Social Media handles */}
