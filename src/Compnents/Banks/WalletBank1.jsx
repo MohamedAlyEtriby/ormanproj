@@ -68,14 +68,14 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                   className="p-0"
                 />
                 <div style={{ width: "18rem" }} className="flex">
-                  <div
+                  <Button
                     className="calc h-100 flex justify-content-center align-items-center righttext"
                     onClick={() => {
                       setLe1((prev) => prev + 45);
                     }}
                   >
                     +
-                  </div>
+                  </Button>
                   <div>
                     <input
                       type=""
@@ -84,7 +84,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                       value={Le1}
                     />
                   </div>
-                  <div
+                  <Button
                     className="calc h-100 flex justify-content-center align-items-center"
                     onClick={() => {
                       if (Le1 !== 45) {
@@ -93,7 +93,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                     }}
                   >
                     -
-                  </div>
+                  </Button>
                 </div>
               </div>{" "}
               <div className=" flex mb-2 righttext flexmob">
@@ -108,14 +108,14 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                   className="p-0"
                 />
                 <div style={{ width: "18rem" }} className="flex">
-                  <div
+                  <Button
                     className="calc h-100 flex justify-content-center align-items-center"
                     onClick={() => {
                       setLe2((prev) => prev + 18);
                     }}
                   >
                     +
-                  </div>
+                  </Button>
                   <div>
                     <input
                       type=""
@@ -124,7 +124,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                       value={Le2}
                     />
                   </div>
-                  <div
+                  <Button
                     className="calc h-100 flex justify-content-center align-items-center"
                     onClick={() => {
                       if (Le2 !== 18) {
@@ -133,7 +133,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                     }}
                   >
                     -
-                  </div>
+                  </Button>
                 </div>
               </div>{" "}
               <div className=" flex righttext flexmob mb-3">
@@ -148,14 +148,14 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                   className="p-0"
                 />
                 <div style={{ width: "18rem" }} className="flex">
-                  <div
+                  <Button
                     className="calc h-100 flex justify-content-center align-items-center"
                     onClick={() => {
                       setLe3((prev) => prev + 350);
                     }}
                   >
                     +
-                  </div>
+                  </Button>
                   <div>
                     <input
                       type=""
@@ -164,7 +164,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                       value={Le3}
                     />
                   </div>
-                  <div
+                  <Button
                     className="calc h-100 flex justify-content-center align-items-center"
                     onClick={() => {
                       if (Le3 !== 350) {
@@ -173,7 +173,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                     }}
                   >
                     -
-                  </div>
+                  </Button>
                 </div>
               </div>
               <div className=" flex righttext flexmob">

@@ -39,6 +39,7 @@
   width: 1.8rem;
   color: white !important;
   cursor: pointer;
+  border: none !important;
 }
 .calc {
   font-size: 2rem;
