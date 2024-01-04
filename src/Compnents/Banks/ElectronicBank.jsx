@@ -15,10 +15,11 @@ const BankTable = ({ bankData }) => {
                 <tr style={{ height: "10rem" }}>
                   <td rowSpan={2} className="align-middle">
                     {item.img && (
-                      <Image
+                      <img
                         src={item.img}
-                        alt={`Image ${index + 1}`}
+                        alt={`iimage ${index + 1}`}
                         style={{ width: "25rem", height: "6.7rem" }}
+                        className="soraelectronic"
                       />
                     )}
                   </td>
