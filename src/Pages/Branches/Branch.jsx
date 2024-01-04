@@ -3,7 +3,7 @@ import "./Branch.css";
 const Branch = ({ title, address }) => {
   return (
     <div
-      className="w-100 flex p-3 justify-content-between align-items-center textright boxshadow"
+      className="w-100 d-flex p-3 justify-content-between textright boxshadow cardbranch"
       style={{
         minHheight: "10rem",
         border: "1px solid #D9D9D9",

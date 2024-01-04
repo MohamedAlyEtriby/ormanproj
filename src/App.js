@@ -14,6 +14,7 @@ import Register from "./Compnents/Register/Register";
 import Login from "./Compnents/Login/Login";
 import { useEffect } from "react";
 import Branches from "./Pages/Branches/Branches";
+import ForgetPassword from "./Pages/ForgetPassword/ForgetPassword";
 function App() {
   const history = useLocation();
 
@@ -40,6 +41,7 @@ function App() {
           <Route exact path="/Register" element={<Register />} />
           <Route exact path="/Login" element={<Login />} />
           <Route exact path="/Branches" element={<Branches />} />
+          <Route exact path="/ForgetPassword" element={<ForgetPassword />} />
         </Routes>
       </Layout>
     </div>
