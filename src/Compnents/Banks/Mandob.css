@@ -2,8 +2,4 @@
 .tab-pane {
   border: none !important;
 }
-@media (max-width: 800px) {
-  .mandob {
-    width: 90% !important;
-  }
-}
+

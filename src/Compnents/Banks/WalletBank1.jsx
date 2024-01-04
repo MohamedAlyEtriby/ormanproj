@@ -15,7 +15,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
   };
   return (
     <div>
-      <Container fluid="lg" className="px-3 boxshadowout">
+      <Container fluid="lg" className="px-3 boxshadowout mandob">
         <p style={{ fontSize: "1.7rem", color: "#8E8E8E", textAlign: "right" }}>
           بيانات المتبرع
         </p>
@@ -26,7 +26,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
               <img
                 src="../../../assets/Hearttbro3.png"
                 alt=""
-                style={{width:"1.7rem"}}
+                style={{ width: "1.7rem" }}
                 className="mx-2"
               />{" "}
               جهة التبـــــــــــرع :
@@ -72,7 +72,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                   onChange={handleOptionChange}
                   className="p-0"
                 />
-                <div style={{ width: "18rem" }} className="flex">
+                <div style={{ width: "18rem" }} className="flex inps">
                   <Button
                     className="calc h-100 flex justify-content-center align-items-center righttext"
                     onClick={() => {
@@ -112,7 +112,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                   onChange={handleOptionChange}
                   className="p-0"
                 />
-                <div style={{ width: "18rem" }} className="flex">
+                <div style={{ width: "18rem" }} className="flex inps">
                   <Button
                     className="calc h-100 flex justify-content-center align-items-center"
                     onClick={() => {
@@ -152,7 +152,7 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                   onChange={handleOptionChange}
                   className="p-0"
                 />
-                <div style={{ width: "18rem" }} className="flex">
+                <div style={{ width: "18rem" }} className="flex inps">
                   <Button
                     className="calc h-100 flex justify-content-center align-items-center"
                     onClick={() => {
@@ -190,14 +190,17 @@ const WalletBank1 = ({ setComIndex, compIndex }) => {
                   value="option1"
                   checked={selectedOption === "option1"}
                   onChange={handleOptionChange}
-                  className="p-0"
+                  className="p-0 "
                 />
-                <div style={{ width: "18rem" }}>
-                  <input
-                    style={{ height: "100%" }}
-                    className="inp w-100"
-                    value={0}
-                  />
+                <div style={{ width: "18rem" }} className="flex inps ">
+                  <div>
+                    <input
+                      type=""
+                      style={{ height: "100%" }}
+                      className="inp dj w-100"
+                      value={Le2}
+                    />
+                  </div>
                 </div>
               </div>
             </Col>

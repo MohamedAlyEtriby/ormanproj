@@ -18,6 +18,21 @@
     flex-direction: column !important;
     align-items: flex-start !important;
   }
+  .inps{
+    width: 19rem !important;
+  }
+  .inps input{
+    width: 13rem !important;
+  }
+}
+@media (max-width: 500px) {
+  .inps input{
+    width: 8.5rem !important;
+  }
+}
+.flexmob label{
+max-width: 25rem !important;
+text-align: right !important;
 }
 .checkwallet input {
   margin-left: 0.5rem !important;
@@ -53,4 +68,7 @@
   border-radius: 0.6rem !important;
   border: 1px solid #d9d9d9;
   padding-left: 10px !important;
+}
+.dj{
+  margin-left: 0rem !important;
 }
