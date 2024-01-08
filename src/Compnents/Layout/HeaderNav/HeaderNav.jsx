@@ -7,7 +7,10 @@ const HeaderNav = () => {
     <div className="header flex col" dir="rtl">
       <div className="flex">
         <div> طرق اخري للتبرع | &nbsp; </div>
-        <div> <Link to={"/Banks"}>حساباتنا في البنوك</Link> | &nbsp;</div>
+        <div>
+          {" "}
+          <Link to={"/Banks"}>حساباتنا في البنوك</Link> | &nbsp;
+        </div>
         <div>
           <Link to="/Branches">فروعنا</Link>
         </div>
@@ -16,7 +19,10 @@ const HeaderNav = () => {
         <div>En |</div>
         <Link to="/Login"> &nbsp; تسجيل الدخول &nbsp;</Link>
         <div style={{ marginTop: "rem" }}>
-          <FaUser />
+          <Link to="/Profile">
+            
+            <FaUser />
+          </Link>
         </div>
         <div>
           <img

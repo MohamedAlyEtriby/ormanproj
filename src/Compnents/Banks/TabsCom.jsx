@@ -5,6 +5,7 @@ import BankTable from "./ElectronicBank";
 import "./Tabs.css";
 import Mandob from "./Mandob";
 import WalletBank from "./WalletBank";
+import E2tman from "./E2tman";
 const TabsCom = () => {
   const [compIndex, setComIndex] = useState(0);
   const CustomTab = ({ title, onClick }) => {
@@ -45,10 +46,7 @@ const TabsCom = () => {
         eventKey="home"
         title={<Tabcus title="بطاقة الائتمان" img={"e2tman.png"} />}
       >
-        <img
-          src="../../../assets/e2tman.png"
-          alt=""
-        />
+       <E2tman/>
       </Tab>
       <Tab
         eventKey="profile"

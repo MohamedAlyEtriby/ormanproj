@@ -15,6 +15,10 @@ import Login from "./Compnents/Login/Login";
 import { useEffect } from "react";
 import Branches from "./Pages/Branches/Branches";
 import ForgetPassword from "./Pages/ForgetPassword/ForgetPassword";
+import { Table } from "react-bootstrap";
+import Reciept from "./Compnents/Reciept/Reciept";
+import RecieptPage from "./Pages/Reciept/RecieptPage";
+import Profile from "./Pages/Profile/Profile";
 function App() {
   const history = useLocation();
 
@@ -42,6 +46,8 @@ function App() {
           <Route exact path="/Login" element={<Login />} />
           <Route exact path="/Branches" element={<Branches />} />
           <Route exact path="/ForgetPassword" element={<ForgetPassword />} />
+          <Route exact path="/Table" element={<RecieptPage />} />
+          <Route exact path="/Profile" element={<Profile />} />
         </Routes>
       </Layout>
     </div>
